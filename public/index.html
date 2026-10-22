@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Shortly — URL shortener</title>
+    <link rel="stylesheet" href="/styles.css">
+  </head>
+  <body>
+    <main class="card">
+      <div class="brand-mark">↗</div>
+      <p class="eyebrow">Simple link sharing</p>
+      <h1>Make your link <span>shorter.</span></h1>
+      <p class="intro">Paste a long URL and get a clean, shareable link in seconds.</p>
+
+      <form id="shorten-form">
+        <label for="url">Your long URL</label>
+        <div class="input-row">
+          <input id="url" name="url" type="url" placeholder="https://example.com/very-long-link" required>
+          <button type="submit">Shorten URL</button>
+        </div>
+        <label class="alias-label" for="custom-code">Custom alias <span>optional</span></label>
+        <input id="custom-code" name="customCode" type="text" maxlength="32" pattern="[A-Za-z0-9_-]{3,32}" placeholder="my-link">
+        <p class="hint">Use 3–32 letters, numbers, hyphens, or underscores.</p>
+      </form>
+
+      <section id="result" class="result" hidden aria-live="polite">
+        <p class="result-label">Your shortened URL</p>
+        <div class="result-row">
+          <a id="short-url" href="#" target="_blank" rel="noopener"></a>
+          <button id="copy-button" type="button">Copy</button>
+        </div>
+        <p id="copy-status" class="copy-status" role="status"></p>
+      </section>
+      <p id="error" class="error" role="alert"></p>
+    </main>
+    <footer>No login. No tracking. Just shorter links.</footer>
+    <script src="/app.js"></script>
+  </body>
+</html>

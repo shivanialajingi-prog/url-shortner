@@ -1,0 +1,5 @@
+data/links.json
+node_modules/
+.env
+.env.*
+!.env.example

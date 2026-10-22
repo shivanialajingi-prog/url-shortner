@@ -1,0 +1,102 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 5 0 R /F2 6 0 R >> >> /Contents 4 0 R /Annots [7 0 R 8 0 R] >>
+endobj
+4 0 obj
+<< /Length 5350 >>
+stream
+0.080 0.160 0.270 rg 0.0 737.0 595.0 105.0 re f
+BT /F2 8.0 Tf 0.680 0.820 0.950 rg 44.0 795.0 Td (PROJECT DOCUMENT) Tj ET
+BT /F2 25.0 Tf 1.000 1.000 1.000 rg 44.0 766.0 Td (Shortly - URL Shortener) Tj ET
+BT /F1 10.5 Tf 0.860 0.920 0.980 rg 44.0 742.0 Td (A practical web application for creating and sharing short links) Tj ET
+BT /F2 7.2 Tf 0.680 0.820 0.950 rg 443.0 795.0 Td (SDE APPLICATION) Tj ET
+BT /F2 9.2 Tf 0.070 0.360 0.630 rg 44.0 710.0 Td (1  NAME AND ROLE APPLIED FOR) Tj ET
+0.930 0.950 0.970 RG 0.7 w 44.0 703.0 m 551.0 703.0 l S
+BT /F2 13.0 Tf 0.080 0.160 0.270 rg 44.0 685.0 Td (Alajingi Shivani) Tj ET
+BT /F1 9.2 Tf 0.320 0.370 0.430 rg 44.0 668.0 Td (Role applied for: Software Development Engineer \(SDE\)) Tj ET
+BT /F2 9.2 Tf 0.070 0.360 0.630 rg 44.0 635.0 Td (2  PROJECT TITLE AND SHORT DESCRIPTION) Tj ET
+0.930 0.950 0.970 RG 0.7 w 44.0 628.0 m 551.0 628.0 l S
+BT /F2 12.0 Tf 0.080 0.160 0.270 rg 44.0 610.0 Td (Shortly - URL Shortener) Tj ET
+BT /F1 9.0 Tf 0.080 0.160 0.270 rg 44.0 592.0 Td (Shortly is a simple URL shortener for users who want to turn long web addresses) Tj ET
+BT /F1 9.0 Tf 0.080 0.160 0.270 rg 44.0 578.0 Td (into clean, shareable links. It supports generated short codes and optional custom aliases.) Tj ET
+BT /F2 9.2 Tf 0.070 0.360 0.630 rg 44.0 551.0 Td (3  PROBLEM STATEMENT AND SOLUTION) Tj ET
+0.930 0.950 0.970 RG 0.7 w 44.0 544.0 m 551.0 544.0 l S
+BT /F1 9.0 Tf 0.080 0.160 0.270 rg 44.0 526.0 Td (Long URLs are difficult to share, read, and remember, especially in messages or printed) Tj ET
+BT /F1 9.0 Tf 0.080 0.160 0.270 rg 44.0 512.0 Td (content. Shortly validates HTTP/HTTPS links, creates a unique six-character code or) Tj ET
+BT /F1 9.0 Tf 0.080 0.160 0.270 rg 44.0 498.0 Td (accepts a valid custom alias, and stores the mapping for later use. When a short link is) Tj ET
+BT /F1 9.0 Tf 0.080 0.160 0.270 rg 44.0 484.0 Td (opened, the service looks up the code and redirects the user to the original URL.) Tj ET
+BT /F2 9.2 Tf 0.070 0.360 0.630 rg 44.0 443.0 Td (4  TECHNOLOGIES USED) Tj ET
+0.930 0.950 0.970 RG 0.7 w 44.0 436.0 m 551.0 436.0 l S
+BT /F2 8.7 Tf 0.080 0.160 0.270 rg 52.0 418.0 Td (Node.js) Tj ET
+BT /F1 8.7 Tf 0.080 0.160 0.270 rg 128.0 418.0 Td (Runs the local HTTP server and backend request handling.) Tj ET
+BT /F2 8.7 Tf 0.080 0.160 0.270 rg 52.0 403.8 Td (MongoDB) Tj ET
+BT /F1 8.7 Tf 0.080 0.160 0.270 rg 128.0 403.8 Td (Stores short-link mappings and rate-limit counters.) Tj ET
+BT /F2 8.7 Tf 0.080 0.160 0.270 rg 52.0 389.6 Td (JavaScript) Tj ET
+BT /F1 8.7 Tf 0.080 0.160 0.270 rg 128.0 389.6 Td (Implements API functions and browser form behaviour.) Tj ET
+BT /F2 8.7 Tf 0.080 0.160 0.270 rg 52.0 375.4 Td (HTML and CSS) Tj ET
+BT /F1 8.7 Tf 0.080 0.160 0.270 rg 128.0 375.4 Td (Provide the user interface and responsive presentation.) Tj ET
+BT /F2 8.7 Tf 0.080 0.160 0.270 rg 52.0 361.2 Td (Vercel) Tj ET
+BT /F1 8.7 Tf 0.080 0.160 0.270 rg 128.0 361.2 Td (Hosts the deployed API functions and application.) Tj ET
+BT /F2 9.2 Tf 0.070 0.360 0.630 rg 44.0 330.0 Td (5  KEY FEATURES AND MY CONTRIBUTION) Tj ET
+0.930 0.950 0.970 RG 0.7 w 44.0 323.0 m 551.0 323.0 l S
+BT /F2 8.4 Tf 0.070 0.360 0.630 rg 52.0 305.0 Td (-) Tj ET
+BT /F1 8.4 Tf 0.080 0.160 0.270 rg 64.0 305.0 Td (Creates random six-character URL-safe codes or user-selected aliases.) Tj ET
+BT /F2 8.4 Tf 0.070 0.360 0.630 rg 52.0 291.7 Td (-) Tj ET
+BT /F1 8.4 Tf 0.080 0.160 0.270 rg 64.0 291.7 Td (Validates input, accepts only HTTP/HTTPS URLs, and returns clear API errors.) Tj ET
+BT /F2 8.4 Tf 0.070 0.360 0.630 rg 52.0 278.4 Td (-) Tj ET
+BT /F1 8.4 Tf 0.080 0.160 0.270 rg 64.0 278.4 Td (Redirects valid short links with HTTP 302 responses.) Tj ET
+BT /F2 8.4 Tf 0.070 0.360 0.630 rg 52.0 265.1 Td (-) Tj ET
+BT /F1 8.4 Tf 0.080 0.160 0.270 rg 64.0 265.1 Td (Applies a shared limit of 10 create requests per client IP in 60 seconds.) Tj ET
+BT /F2 8.4 Tf 0.070 0.360 0.630 rg 52.0 251.8 Td (-) Tj ET
+BT /F1 8.4 Tf 0.080 0.160 0.270 rg 64.0 251.8 Td (Provides a browser interface with generated-link display and copy action.) Tj ET
+BT /F2 8.8 Tf 0.080 0.160 0.270 rg 44.0 236.5 Td (My contribution:) Tj ET
+BT /F1 8.4 Tf 0.080 0.160 0.270 rg 124.0 236.5 Td (I implemented the Node.js backend, API routes, validation, and redirect flow.) Tj ET
+BT /F1 8.4 Tf 0.080 0.160 0.270 rg 44.0 222.5 Td () Tj ET
+BT /F1 8.4 Tf 0.080 0.160 0.270 rg 124.0 222.5 Td (I designed the MongoDB access helpers, unique-code handling, and database-backed) Tj ET
+BT /F1 8.4 Tf 0.080 0.160 0.270 rg 124.0 208.5 Td (rate limiting, then connected the frontend to the API and prepared Vercel deployment.) Tj ET
+BT /F2 9.2 Tf 0.070 0.360 0.630 rg 44.0 188.0 Td (6  GITHUB REPOSITORY LINK) Tj ET
+0.930 0.950 0.970 RG 0.7 w 44.0 181.0 m 551.0 181.0 l S
+BT /F1 8.7 Tf 0.070 0.360 0.630 rg 44.0 162.0 Td (https://github.com/shivanialajingi-prog/url-shortner) Tj ET
+BT /F2 9.2 Tf 0.070 0.360 0.630 rg 44.0 142.0 Td (7  LIVE DEMO LINK) Tj ET
+0.930 0.950 0.970 RG 0.7 w 44.0 135.0 m 551.0 135.0 l S
+BT /F1 8.7 Tf 0.070 0.360 0.630 rg 44.0 116.0 Td (https://url-shortner-tan-iota.vercel.app/) Tj ET
+0.930 0.950 0.970 RG 0.7 w 44.0 57.0 m 551.0 57.0 l S
+BT /F1 7.5 Tf 0.320 0.370 0.430 rg 44.0 39.0 Td (Project summary prepared from the repository implementation and README.) Tj ET
+BT /F1 7.5 Tf 0.320 0.370 0.430 rg 454.0 39.0 Td (A4 | 1 page) Tj ET
+endstream
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+6 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+7 0 obj
+<< /Type /Annot /Subtype /Link /Rect [44.0 160.0 279.2 172.0] /Border [0 0 0] /A << /S /URI /URI (https://github.com/shivanialajingi-prog/url-shortner) >> >>
+endobj
+8 0 obj
+<< /Type /Annot /Subtype /Link /Rect [44.0 114.0 229.5 126.0] /Border [0 0 0] /A << /S /URI /URI (https://url-shortner-tan-iota.vercel.app/) >> >>
+endobj
+xref
+0 9
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000121 00000 n 
+0000000279 00000 n 
+0000005681 00000 n 
+0000005751 00000 n 
+0000005826 00000 n 
+0000005999 00000 n 
+trailer
+<< /Size 9 /Root 1 0 R >>
+startxref
+6161
+%%EOF
